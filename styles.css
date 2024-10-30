@@ -1,0 +1,85 @@
+/* Cambia el color de todos los íconos de la barra de navegación */
+.navbar-nav .nav-link i {
+    color: #FFD700;
+  }
+  .navbar.navbar-dark {
+    background-color: #797474 !important;
+  }
+  /* color de iconos barra superior */
+  .navbar-nav .nav-link .fa-user {
+    color: #4CAF50; 
+    text-shadow: 2px 2px 4px rgba(23, 59, 18, 0.616);
+  }
+  
+  .navbar-nav .nav-link .fa-graduation-cap {
+    color: #2196F3;
+    text-shadow: 2px 2px 4px rgba(15, 54, 66, 0.37);
+  }
+  
+  .navbar-nav .nav-link .fa-briefcase {
+    color: #FF9800; 
+    text-shadow: 2px 2px 4px rgba(78, 56, 14, 0.5);
+  }
+  
+  .navbar-nav .nav-link .fa-project-diagram {
+    color: #be65cec7; 
+    text-shadow: 2px 2px 4px rgba(57, 18, 58, 0.5);
+  }
+  
+  .navbar-nav .nav-link .fa-tools {
+    color: #f0f3f8; 
+    text-shadow: 2px 2px 4px rgba(107, 107, 107, 0.5);
+  }
+  
+  .navbar-nav .nav-link .fa-envelope {
+    color: #44cf21; 
+    text-shadow: 2px 2px 4px rgba(38, 80, 48, 0.5);
+  }
+  .navbar {
+    background-color: #87CEEB; 
+  }
+
+/* Ajusta de infromacion personal */
+.profile-img {
+    display: block;             /* Hace que el elemento sea un bloque */
+    margin: 0 auto;             /* Centra la imagen horizontalmente */
+    width: 150px;               /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 150px;              /* Asegura que la imagen sea cuadrada */
+    object-fit: cover;          /* Mantiene la proporción y recorta la imagen si es necesario */
+    border-radius: 50%;         /* Hace la imagen redonda */
+}
+.nombre {
+    text-align: center;  /* Centra el texto horizontalmente */
+    color: rgb(11, 90, 136);         /* Cambia el color del texto a azul */
+}
+
+/* la imagen siempre esté centrada en su contenedor */
+.container {
+    text-align: center;         /* Asegura que el contenido dentro de este contenedor esté centrado */
+}
+
+.badge-center {
+    display: block; /* Hace que el span ocupe todo el ancho disponible */
+    text-align: center; /* Centra el texto */
+    font-size: 2.0em; /* Aumenta el tamaño del texto (ajusta según tu preferencia) */
+    margin: 0 auto;
+    border: none;
+    width: 500px;
+}
+.icon-container {
+    display: flex;
+    justify-content: center; /* Centra los íconos */
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.icon {
+    margin: 0 15px; /* Espaciado entre íconos */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+.info-display {
+    text-align: center; /* Centra el texto de los datos personales */
+    margin-top: 20px; /* Espaciado superior */
+    font-size: 1.2em; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+}
